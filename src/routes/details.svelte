@@ -63,7 +63,7 @@
       </div>
       <div>
         <div class="img-wrapper valencia">
-          <img class="valencia" src="../assets/valencia.jpg" alt="valencia" />
+          <img class="valencia" src="/assets/valencia.jpg" alt="valencia" />
         </div>
       </div>
     </article>
@@ -75,7 +75,7 @@
     <article>
       <div>
         <div class="img-wrapper santiago">
-          <img class="santiago" src="../assets/santiago.jpg" alt="santiago" />
+          <img class="santiago" src="/assets/santiago.jpg" alt="santiago" />
         </div>
       </div>
       <div>
@@ -160,13 +160,13 @@
     margin: 10vh auto;
   }
   .to-have-and-to-hold.text-text.left-left {
-    background-image: url(../assets/have-and-to-hold-left.svg);
+    background-image: url(/assets/have-and-to-hold-left.svg);
     background-size: auto 100%;
   }
   .to-have-and-to-hold.right-right {
     margin-top: 0vh;
     margin-bottom: 0vh;
-    background-image: url(../assets/have-and-to-hold-right.svg);
+    background-image: url(/assets/have-and-to-hold-right.svg);
     background-position: 50% 50%;
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@
     z-index: 1;
     margin-top: 0vh;
     margin-bottom: 0vh;
-    background-image: url(../assets/have-and-to-hold-text.svg);
+    background-image: url(/assets/have-and-to-hold-text.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     opacity: 0.94;

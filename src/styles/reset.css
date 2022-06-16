@@ -1,6 +1,6 @@
 
 body {
-  background-image: url('../assets/cardstock.jpg');
+  background-image: url('/assets/cardstock.jpg');
 	background-color: var(--color-bg, white);
   color: var(--color-fg, black);
 	line-height: 1.4;
