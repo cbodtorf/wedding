@@ -1,0 +1,65 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 31 May 2022 13:42:06 GMT
+ */
+
+:root {
+  --category-blue: #4477AA;
+  --category-red: #EE6677;
+  --category-green: #228833;
+  --category-yellow: #CCBB44;
+  --category-cyan: #66CCEE;
+  --category-purple: #AA3377;
+  --category-gray: #BBBBBB;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray-50: #f7f7f7;
+  --color-gray-100: #efefef;
+  --color-gray-200: #dfdfdf;
+  --color-gray-300: #cacaca;
+  --color-gray-400: #a8a8a8;
+  --color-gray-500: #878787;
+  --color-gray-600: #6d6d6d;
+  --color-gray-700: #4e4e4e;
+  --color-gray-800: #373737;
+  --color-gray-900: #262626;
+  --color-gray-1000: #191919;
+  --color-purple: #a239ca;
+  --color-blue: #4717f6;
+  --color-red: #ff533d;
+  --color-yellow: #e5e338;
+  --color-green: #046040;
+  --colorr-light-green: #2a9265;
+  --color-off-white: #f2e5da;
+  --color-pink: #e6b6aa; 
+  --color-light-orange: #e77c64; /* 231,124,100 */
+  --color-orange: #ba4020; /* 186,64,32 */
+
+  /* Inspo: https://codepen.io/sosuke/pen/Pjoqqp */
+  --filter-green: invert(24%) sepia(77%) saturate(185%) hue-rotate(109deg) brightness(135%) contrast(210%);
+  --filter-orange: invert(27%) sepia(80%) saturate(1508%) hue-rotate(351deg) brightness(94%) contrast(85%);
+
+  /* Alt Inspo to try: https://codepen.io/sosuke/pen/Pjoqqp */
+  --filter-light-orange: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="recolor" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values=" 0 0 0 0 231 0 0 0 0 124 0 0 0 0 B 0 0 0 A 100 "/> </filter> </svg> #recolor');
+
+  --px10: 0.625rem;
+  --px12: 0.75rem;
+  --px14: 0.875rem;
+  --px16: 1rem;
+  --px18: 1.125rem;
+  --px20: 1.25rem;
+  --px22: 1.375rem;
+  --px24: 1.5rem;
+  --px28: 1.75rem;
+  --px32: 2rem;
+  --px36: 2.25rem;
+  --px40: 2.5rem;
+  --px44: 2.75rem;
+  --px48: 3rem;
+  --px56: 3.5rem;
+  --px64: 4rem;
+  --px80: 5rem;
+  --px96: 6rem;
+  --px112: 7rem;
+  --px128: 8rem;
+}
