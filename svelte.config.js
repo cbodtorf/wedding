@@ -21,6 +21,9 @@ const preprocess = sveltePreprocess({
 });
 
 const config = {
+	experimental: {
+    useVitePreprocess: true
+  },
 	preprocess,
 	kit: {
 		adapter: adapterStatic(),
