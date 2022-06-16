@@ -37,6 +37,6 @@
 
   {#each preloadFont as href}
     <link rel="preload" {href} as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/svelte-starter/assets/demo/fonts/tan-nimbus/TAN-NIMBUS.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="{url}/assets/fonts/tan-nimbus/TAN-NIMBUS.ttf" as="font" type="font/ttf" crossorigin />
   {/each}
 </svelte:head>
