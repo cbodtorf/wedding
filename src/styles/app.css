@@ -57,6 +57,20 @@
 	}
 } */
 
+a {
+  color: var(--color-light-green);
+}
+
+a mark {
+  color: inherit;
+  width: 100%;
+  transition: .3s ease-in background; 
+}
+
+a:hover mark {
+  background: none !important;
+}
+
 h1 {
 	font-size: var(--px48, 48px);
 }

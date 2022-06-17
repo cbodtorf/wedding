@@ -33,9 +33,9 @@
       <div>
         <p>Please join us for an evening of celebration as <mark>Chelsea Murphy and Caleb Bodtorf</mark> join each other in marriage.</p>
         <p>There will be plenty of eating, drinking, dancing and silliness to be had. Dress is formal and fun.</p>
-        <p>For more information on the wedding and how to book your stay, please read The Inn section of this website.</p>
+        <p>For more information on the wedding and how to book your stay, please read <a href="/inn">The Inn</a> section of this website.</p>
         <p>We can't wait to celebrate with you!</p>
-        <p><small>Please <mark>RSVP</mark> and book your stay by 03 September 2022.</small></p>
+        <p><small>Please <a href="/inn">RSVP</a> and book your stay by 03 October 2022.</small></p>
       </div>
     </article>
   </fieldset>
@@ -83,7 +83,7 @@
         <p>Rancho Bernardo Inn</p>
         <p><mark>Santiago Courtyard</mark></p>
         <br />
-        <p><a href="/dinner-party">Dinner Party</a> • <a target="_blank" href="https://open.spotify.com/playlist/5iAJXeWB3LhOFeOMdAEZN1">Music</a> • Vibes</p>
+        <p><a href="/dinner-party">Dinner Party</a> • <a target="_blank" href="https://open.spotify.com/playlist/5iAJXeWB3LhOFeOMdAEZN1">Music</a> • <a href="javascript:void(0)">Vibes</a></p>
       </div>
     </article>
   </fieldset>

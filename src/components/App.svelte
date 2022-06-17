@@ -91,7 +91,15 @@
   .title {
     color: var(--color-gray-1000);
     font-family: var(--nimbus);
+    white-space: nowrap;
   }
+
+  @media all and (max-width: 600px) {
+    .title {
+      font-size: var(--px32);
+    }
+  }
+  
   .title span {
     font-size: var(--px24);
     font-family: var(--font-form);
