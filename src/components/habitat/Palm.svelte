@@ -35,4 +35,16 @@
     filter: var(--recolor-palm);
     opacity: 0.7;
   }
+  @media all and (max-width: 600px) {
+    .text1 {
+      bottom: 20%;
+    }
+    .text2 {
+      bottom: -20%;
+    }
+    .palm {
+      width: unset;
+      height: 75px;
+    }
+  }
 </style>

@@ -1,6 +1,9 @@
 
 body {
   background-image: url('/assets/cardstock.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
 	background-color: var(--color-bg, white);
   color: var(--color-fg, black);
 	line-height: 1.4;

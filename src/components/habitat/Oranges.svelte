@@ -26,4 +26,9 @@
     filter: var(--recolor-oranges);
     opacity: 0.7;
   }
+  @media all and (max-width: 600px) {
+    .text {
+      font-size: var(--px18);
+    }
+  }
 </style>

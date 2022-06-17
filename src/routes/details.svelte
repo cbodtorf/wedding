@@ -120,11 +120,9 @@
     display: flex;
     justify-content: space-around;
     position: relative;
+    flex-direction: column;
   }
 
-  img {
-    opacity: 0.6;
-  }
   fieldset:nth-child(odd) {
     background-color: #f8f6e9;
   }
@@ -141,18 +139,34 @@
   .img-wrapper {
     position: relative;
     border: 1px solid var(--color-gray-1000);
+    box-sizing: content-box;
+    margin: 0 auto;
   }
   .valencia {
-    bottom: 40px;
     background: #eaa3a8;
   }
   .santiago {
-    bottom: -40px;
     background: #f8f6e9;
+  }
+
+  @media only screen and (min-width: 50em) {
+    article {
+      flex-direction: row;
+    }
+    .valencia {
+      bottom: 40px;
+    }
+    .santiago {
+      bottom: -40px;
+    }
+    .img-wrapper {
+      max-width: 400px;
+    }
   }
 
 
   .to-have-and-to-hold {
+    overflow-x: hidden;
     position: relative;
     display: block;
     width: 100%;

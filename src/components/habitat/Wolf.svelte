@@ -27,4 +27,9 @@
     filter: var(--recolor-wolf);
     opacity: 0.7;
   }
+  @media all and (max-width: 600px) {
+    .text {
+      font-size: var(--px16);
+    }
+  }
 </style>

@@ -39,4 +39,15 @@
     filter: var(--recolor-triangle);
     opacity: 0.7;
   }
+  @media all and (max-width: 600px) {
+    .text1 {
+      top: 35%;
+    }
+    .text2 {
+      top: 75%;
+    }
+    .text3 {
+      top: 75%;
+    }
+  }
 </style>

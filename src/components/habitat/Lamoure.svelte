@@ -15,4 +15,9 @@
     position: absolute;
     bottom: 50%;
   }
+  @media all and (max-width: 600px) {
+    .text {
+      bottom: unset;
+    }
+  }
 </style>

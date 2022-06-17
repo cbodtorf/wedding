@@ -29,4 +29,14 @@
     filter: var(--recolor-cactus);
     opacity: 0.7;
   }
+  @media all and (max-width: 600px) {
+    .text {
+      bottom: 20%;
+    }
+    .cactus {
+      width: unset;
+      height: 150px;
+      margin: 0 auto;
+    }
+  }
 </style>

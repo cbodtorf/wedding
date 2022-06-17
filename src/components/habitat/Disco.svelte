@@ -32,4 +32,10 @@
     -webkit-mask-size: 944px 604px;
     mix-blend-mode: multiply;
   }
+
+  @media all and (max-width: 600px) {
+    .text {
+      font-size: var(--px14);
+    }
+  }
 </style>

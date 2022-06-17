@@ -13,7 +13,7 @@
 
 <style>
   .text {
-    font-size: var(--px32);
+    font-size: var(--px28);
     color: var(--color-green);
     opacity: 0.8;
     position: absolute;
@@ -24,5 +24,10 @@
     width: 240px;
     filter: var(--recolor-pinky);
     opacity: 0.7;
+  }
+  @media all and (max-width: 600px) {
+    .text {
+      bottom: 20%;
+    }
   }
 </style>

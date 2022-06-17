@@ -26,4 +26,12 @@
     filter: var(--recolor-star);
     opacity: 0.7;
   }
+
+  @media all and (max-width: 600px) {
+    span.text {
+      bottom: 60%;
+      left: -10%;
+      width: 200px;
+    }
+  }
 </style>

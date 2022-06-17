@@ -22,8 +22,6 @@
     position: absolute;
     bottom: 40%;
   }
-  .text1 {
-  }
   .text2 {
     bottom: 20%;
     padding-left: 40px;
@@ -32,5 +30,10 @@
     width: 120px;
     filter: var(--recolor-ginkgo);
     opacity: 0.7;
+  }
+  @media all and (max-width: 600px) {
+    .text {
+      font-size: var(--px12);
+    }
   }
 </style>

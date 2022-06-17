@@ -25,4 +25,9 @@
     filter: var(--recolor-lobster);
     opacity: 0.7;
   }
+  @media all and (max-width: 600px) {
+    .text {
+      bottom: 25%;
+    }
+  }
 </style>

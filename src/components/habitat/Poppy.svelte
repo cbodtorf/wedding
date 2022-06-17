@@ -33,4 +33,17 @@
     filter: var(--recolor-poppy);
     opacity: 0.7;
   }
+  @media all and (max-width: 600px) {
+    .text {
+      bottom: 20%;
+    }
+    .text2 {
+      bottom: 5%;
+    }
+    .poppy {
+      width: unset;
+      height: 150px;
+      margin: 0 auto;
+    }
+  }
 </style>
