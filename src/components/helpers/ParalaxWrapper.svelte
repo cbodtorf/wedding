@@ -3,6 +3,7 @@
   export let m;
   export let gridClass;
   export let textRotate = "0deg";
+  export let imgRotate = "0deg";
   let clazz = '';
 	export { clazz as class };
   let FACE;
@@ -39,7 +40,7 @@
 </script>
 
 <div
-  style="--rotate: {textRotate}"
+  style="--rotate: {textRotate}; --img-rotate: {imgRotate}"
   class="box {gridClass} layered {clazz}"
   bind:this="{FACE}"
 >
@@ -59,6 +60,6 @@
     transform: rotate(var(--rotate)) translate(calc(var(--x, 0) * 0.5px), calc(var(--y, 0) * 0.5px)) scaleY(1);
   }
   :global(img) {
-    transform: translate(calc(var(--x, 0) * 0.25px), calc(var(--y, 0) * 0.25px));
+    transform: rotate(var(--img-rotate)) translate(calc(var(--x, 0) * 0.25px), calc(var(--y, 0) * 0.25px));
   }
 </style>

@@ -15,7 +15,8 @@
 
 <style>
   .text {
-    font-size: var(--px28);
+    font-family: var(--architectural);
+    font-size: var(--px48);
     color: var(--color-orange);
     opacity: 0.8;
     position: absolute;

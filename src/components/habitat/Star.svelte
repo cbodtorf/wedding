@@ -14,7 +14,8 @@
 
 <style>
   span.text {
-    font-size: var(--px10);
+    font-family: var(--bungee);
+    font-size: var(--px14);
     color: var(--color-orange);
     opacity: 0.7;
     position: absolute;

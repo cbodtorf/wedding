@@ -13,7 +13,8 @@
 
 <style>
   .text {
-    font-size: var(--px28);
+    font-family: var(--manicotti);
+    font-size: var(--px40);
     color: var(--color-green);
     opacity: 0.8;
     position: absolute;

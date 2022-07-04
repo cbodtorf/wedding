@@ -16,6 +16,7 @@
 
 <style>
   .text {
+    font-family: var(--averia);
     opacity: 0.8;
     position: absolute;
   }

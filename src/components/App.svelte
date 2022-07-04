@@ -6,7 +6,8 @@
   import Footer from "$components/Footer.svelte";
   import Wolf from "$components/habitat/Wolf.svelte";
   import Star from "$components/habitat/Star.svelte";
-  import Lamoure from "$components/habitat/Lamoure.svelte";
+  // import Lamoure from "$components/habitat/Lamoure.svelte";
+  import Onevoit from "$components/habitat/Onevoit.svelte";
   import Lobster from "$components/habitat/Lobster.svelte";
   import Pinky from "$components/habitat/Pinky.svelte";
   import Pizza from "$components/habitat/Pizza.svelte";
@@ -32,7 +33,7 @@
   }
 
   // Stamp Order
-  const stamps = [Star,Wolf,Lamoure,Lobster,Pizza,Pinky,Cactus,Poppy,Palm,Triangle,Ginkgo,Oranges,Disco];
+  const stamps = [Star,Wolf,Lobster,Onevoit,Pizza,Pinky,Cactus,Poppy,Palm,Triangle,Ginkgo,Oranges,Disco];
 </script>
 
 <!-- <WIP /> -->

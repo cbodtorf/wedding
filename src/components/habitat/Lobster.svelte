@@ -8,7 +8,7 @@
   <Recolor slot="img" hex="#ba4020" recolorVar="lobster">
     <img class="lobster" src="assets/lobster.png" alt="lobster" />
   </Recolor>
-  <span slot="text" class="text">Moonwalking in mi casa</span>
+  <!-- <span slot="text" class="text">Moonwalking in mi casa</span> -->
 </ParalaxWrapper>
 
 <style>

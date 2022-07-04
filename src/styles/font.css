@@ -45,3 +45,53 @@
 	font-stretch: normal;
 	font-display: swap;
 }
+
+/* Avoda */
+@font-face {
+	font-family: "Avoda";
+	src: url("/assets/fonts/avoda/avoda.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+/* Manicotti */
+@font-face {
+	font-family: "Manicotti";
+	src: url("/assets/fonts/manicotti/manicotti.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+/* Architectural */
+@font-face {
+	font-family: "Architectural";
+	src: url("/assets/fonts/architectural/architectural.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+/* Buffalo */
+@font-face {
+	font-family: "Buffalo";
+	src: url("/assets/fonts/buffalo/buffalo.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+/* Paradizo */
+@font-face {
+	font-family: "Paradizo";
+	src: url("/assets/fonts/paradizo/paradizo.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}

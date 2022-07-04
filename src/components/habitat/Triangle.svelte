@@ -17,6 +17,7 @@
 
 <style>
   .text {
+    font-family: "National 2 Web";
     font-size: var(--px16);
     color: var(--color-green);
     opacity: 0.8;

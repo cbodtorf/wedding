@@ -10,7 +10,7 @@
   <Recolor slot="img" hex="#046040" recolorVar="pizza">
     <img class="pizza" src="assets/pizza.png" alt="pizza" />
   </Recolor>
-  <span slot="text" class="text">'cause I do it for the thrill</span>
+  <!-- <span slot="text" class="text">'cause I do it for the thrill</span> -->
 </ParalaxWrapper>
 
 <style>

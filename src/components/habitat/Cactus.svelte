@@ -6,23 +6,27 @@
 	export { clazz as class };
 </script>
 
-<ParalaxWrapper m={m} gridClass="dbl" class="{clazz}">
+<ParalaxWrapper m={m} gridClass="dbl" class="{clazz}" textRotate="10deg">
   <Recolor slot="img" hex="#046040" recolorVar="cactus">
     <img class="cactus" src="assets/cactus.png" alt="cactus" />
   </Recolor>
-  <span slot="text" class="text text1">As easy as 1 2 3</span>
+  <span slot="text" class="text text1">as easy as 1 2 3</span>
 </ParalaxWrapper>
 
 <style>
   .text {
-    font-size: var(--px22);
+    font-family: var(--paradizo);
+    font-size: var(--px16);
     color: var(--color-orange);
     opacity: 0.8;
     position: absolute;
-    bottom: 50%;
+    bottom: 0%;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space: pre;
   }
   .text1 {
-    padding-left: 40px;
+    padding-left: 110px;
   }
   .cactus {
     width: 120px;

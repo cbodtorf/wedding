@@ -6,17 +6,18 @@
 	export { clazz as class };
 </script>
 
-<ParalaxWrapper m={m} gridClass="dbl" class="{clazz}">
+<ParalaxWrapper m={m} gridClass="dbl" class="{clazz}" imgRotate="20deg">
   <Recolor slot="img" hex="#ba4020" recolorVar="poppy">
     <img class="poppy" src="assets/poppy.png" alt="poppy" />
   </Recolor>
-  <span slot="text" class="text text1">I belong in the sun</span>
+  <span slot="text" class="text text1">i belong in the sun</span>
   <span slot="text2" class="text text2">with you</span>
 </ParalaxWrapper>
 
 <style>
   .text {
-    font-size: var(--px22);
+    font-family: var(--buffalo);
+    font-size: var(--px48);
     color: var(--color-green);
     opacity: 0.8;
     position: absolute;

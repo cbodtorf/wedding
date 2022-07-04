@@ -7,6 +7,13 @@
 :root {
 	/* font */
 	--nimbus: "Tan Nimbus", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	--avoda: "Avoda", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	--manicotti: "Manicotti", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	--buffalo: "Buffalo", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	--paradizo: "Paradizo", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	--architectural: "Architectural", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	--averia: "Averia Libre", cursive;
+	--bungee: "Bungee Shade", cursive;
 	--sans: "National 2 Web", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 	--serif: "Tiempos Text Web", Iowan Old Style, Times New Roman, Times, serif;
 	--mono: Menlo, Consolas, Monaco, monospace;

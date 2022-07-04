@@ -10,7 +10,7 @@
   <Recolor slot="img" hex="#ba4020" recolorVar="disco">
     <img class="disco stamp" src="assets/disco.gif" alt="disco" />
   </Recolor>
-  <span slot="text"class="text">How the stars stole the night away</span>
+  <!-- <span slot="text"class="text">How the stars stole the night away</span> -->
 </ParalaxWrapper>
 
 <style>

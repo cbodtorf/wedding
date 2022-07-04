@@ -6,12 +6,12 @@
 	export { clazz as class };
 </script>
 
-<ParalaxWrapper m={m} gridClass="" class="{clazz}">
+<ParalaxWrapper m={m} gridClass="dbl" class="{clazz}">
   <Recolor slot="img" hex="#046040" recolorVar="ginkgo">
     <img class="ginkgo" src="assets/ginkgo.png" alt="ginkgo" />
   </Recolor>
-  <span slot="text" class="text text1">Antisocial</span>
-  <span slot="text2" class="text text2">Extrovert</span>
+  <!-- <span slot="text" class="text text1">Antisocial</span>
+  <span slot="text2" class="text text2">Extrovert</span> -->
 </ParalaxWrapper>
 
 <style>
@@ -27,7 +27,7 @@
     padding-left: 40px;
   }
   .ginkgo {
-    width: 120px;
+    width: 480px;
     filter: var(--recolor-ginkgo);
     opacity: 0.7;
   }

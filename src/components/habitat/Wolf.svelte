@@ -10,7 +10,7 @@
   <Recolor slot="img" hex="#046040" recolorVar="wolf">
     <img class="wolf" src="assets/wolf.png" alt="wolf" />
   </Recolor>
-  <span slot="text" class="text">Baby Princess</span>
+  <!-- <span slot="text" class="text">Baby Princess</span> -->
 </ParalaxWrapper>
 
 <style>
