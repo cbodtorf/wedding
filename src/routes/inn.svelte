@@ -50,7 +50,7 @@
       <div>
         <p>Caleb and Chelsea will check in on 12/2 and check out on 12/4.</p>
 
-        <p>As we get closer to the wedding and have a better idea of guest count we will try to coordinate other events for our guests to attend over the weekend- stay tuned!</p>
+        <p>Stay tuned here for more information about other happenings and recommendations for the weekend.</p>
       </div>
     </article>
   </fieldset>
