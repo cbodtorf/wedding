@@ -33,6 +33,19 @@
         <p>The most important gift to us is your presence on our special day.</p>
         <p>Thus, we will be foregoing a traditional registry.</p>
         <p>If you would still like to give a gift, please consider donating to these charitable organizations, or our honeymoon fund.</p>
+        <br>
+        <p>🚧 This section is in progress and will be available soon! 🚧</p>
+      </div>
+    </article>
+  </fieldset>
+
+  <!-- Questions -->
+  <fieldset>
+    <legend>Questions</legend>
+    <article>
+      <div>
+        <p>I you have any further questions, or you just want to say hi, please send us an email and we will get back to you soon!</p>
+        <p><a href="mailto:planning@calebxchelsea.wedding">planning@calebxchelsea.wedding</a></p>
       </div>
     </article>
   </fieldset>
