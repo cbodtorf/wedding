@@ -44,7 +44,7 @@
     <legend>Questions</legend>
     <article>
       <div>
-        <p>I you have any further questions, or you just want to say hi, please send us an email and we will get back to you soon!</p>
+        <p>If you have any further questions, or you just want to say hi, please send us an email and we will get back to you soon!</p>
         <p><a href="mailto:planning@calebxchelsea.wedding">planning@calebxchelsea.wedding</a></p>
       </div>
     </article>
