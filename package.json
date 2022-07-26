@@ -36,7 +36,8 @@
 		"svelte": "^3.48.0",
 		"svelte-copy": "^1.2.4",
 		"svelte-preprocess": "^4.10.6",
-		"vite-plugin-svgstring": "^1.0.0"
+		"vite-plugin-svgstring": "^1.0.0",
+		"graphql-request": "^4.3.0"
 	},
 	"type": "module",
 	"engines": {
@@ -44,7 +45,6 @@
 	},
 	"browserslist": "> 0.5%, last 4 versions, not ie <= 11, not ie_mob <= 11",
 	"dependencies": {
-		"graphql-request": "^4.3.0",
 		"svelte-scrollto": "^0.2.0"
 	}
 }
