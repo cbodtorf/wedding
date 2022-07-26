@@ -20,7 +20,7 @@
         <p>We like to think of this as formal without the formalities.</p>
         <p>Dress to impress, while still remaining true to yourself.</p>
         <br>
-        <p>Think chic cocktail or floor length dresses, classy jumpsuits, suit and tie, or tuxedos.</p>
+        <p>Think chic cocktail or formal dresses, classy jumpsuits, suit and tie, or tuxedos.</p>
       </div>
     </article>
   </fieldset>
@@ -34,7 +34,7 @@
         <p>Thus, we will be foregoing a traditional registry.</p>
         <p>If you would still like to give a gift, please consider donating to these charitable organizations, or our honeymoon fund.</p>
         <br>
-        <p>🚧 This section is in progress and will be available soon! 🚧</p>
+        <p><a href="/registry">Go to registry page</a></p>
       </div>
     </article>
   </fieldset>

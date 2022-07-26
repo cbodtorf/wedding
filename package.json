@@ -8,10 +8,14 @@
 		"build": "svelte-kit build",
 		"start": "svelte-kit start",
 		"lint": "prettier --check .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"prepare": "svelte-kit sync && npm run smui-theme",
+		"smui-theme": "smui-theme compile static/smui.css -i src/theme"
 	},
 	"devDependencies": {
+		"@okrad/svelte-progressbar": "^1.11.3",
 		"@rollup/plugin-dsv": "^2.0.3",
+		"@smui/linear-progress": "^6.0.0",
 		"@sveltejs/adapter-static": "1.0.0-next.34",
 		"@sveltejs/kit": "1.0.0-next.347",
 		"archieml": "^0.5.0",
@@ -26,6 +30,8 @@
 		"prettier-plugin-svelte": "^2.7.0",
 		"rollup": "^2.75.3",
 		"rollup-plugin-svg": "^2.0.0",
+		"sass": "^1.54.0",
+		"smui-theme": "^6.0.0",
 		"style-dictionary": "^3.1.1",
 		"svelte": "^3.48.0",
 		"svelte-copy": "^1.2.4",
@@ -38,6 +44,7 @@
 	},
 	"browserslist": "> 0.5%, last 4 versions, not ie <= 11, not ie_mob <= 11",
 	"dependencies": {
+		"graphql-request": "^4.3.0",
 		"svelte-scrollto": "^0.2.0"
 	}
 }

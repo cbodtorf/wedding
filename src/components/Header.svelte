@@ -6,6 +6,7 @@
     { route: 'details' },
     { route: 'inn' },
     { route: 'faq' },
+    { route: 'registry' },
   ];
 
   console.log('$page.url.pathname', $page.url.pathname)
@@ -21,9 +22,6 @@
     {#each navItems as item, i}
       <a class={$page.url.pathname === ('/' + item.route + '/') ? 'active' : ''} href="/{item.route}" aria-label="{item.route.toUpperCase()}">{item.route.toUpperCase()}</a> 
     {/each}
-    <!-- <a class:active={$page.url.pathname == item.route} href="/details" aria-label="Details">DETAILS</a>
-    <a class:active={$page.url.pathname == item.route} href="/inn" aria-label="Inn">INN</a>
-    <a class:active={$page.url.pathname == item.route} href="/faq" aria-label="FAQ">FAQ</a> -->
   </div>
 </header>
 
