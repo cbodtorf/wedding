@@ -35,7 +35,7 @@
         <p>There will be plenty of eating, drinking, dancing and silliness to be had. Dress is formal and fun.</p>
         <p>For more information on the wedding and how to book your stay, please read <a href="/inn">The Inn</a> section of this website.</p>
         <p>We can't wait to celebrate with you!</p>
-        <p><small>Please <a href="/inn">RSVP</a> and book your stay by 03 October 2022.</small></p>
+        <p><small>Please <a href="/inn">RSVP</a> and book your stay by 15 October 2022.</small></p>
       </div>
     </article>
   </fieldset>
