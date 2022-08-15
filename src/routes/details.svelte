@@ -55,17 +55,17 @@
     <legend>The Welcome</legend>
     <article>
       <div>
+        <div class="img-wrapper granada">
+          <img class="granada" src="/assets/granada.jpg" alt="granada" />
+        </div>
+      </div>
+      <div>
         <p><mark>Friday, 2 Decemeber 2022</mark></p>
         <!-- <p><mark>TBD in the evening</mark></p> -->
         <p>Rancho Bernardo Inn</p>
         <p><mark>Granada Lawn</mark></p>
         <br />
         <p>Meet & Greet</p>
-      </div>
-      <div>
-        <div class="img-wrapper valencia">
-          <img class="valencia" src="/assets/granada.jpg" alt="valencia" />
-        </div>
       </div>
     </article>
   </fieldset>
@@ -134,7 +134,7 @@
   }
 
   fieldset {
-    margin-top: 25px;
+    margin-top: 50px;
   }
 
   article {
@@ -166,7 +166,7 @@
   .valencia {
     background: #eaa3a8;
   }
-  .santiago {
+  .santiago, .granada {
     background: #f8f6e9;
   }
 
@@ -175,9 +175,9 @@
       flex-direction: row;
     }
     .valencia {
-      bottom: 40px;
+      bottom: -40px;
     }
-    .santiago {
+    .santiago, .granada {
       bottom: -40px;
     }
     .img-wrapper {
