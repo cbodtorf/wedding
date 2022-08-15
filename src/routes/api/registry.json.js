@@ -71,7 +71,7 @@ export const get = async ({ params, locals }) => {
 
   const altLogos = {
     halliehillanimalsanctuary: 'https://dl5zpyw5k3jeb.cloudfront.net/organization-photos/44405/2/?bust=1579194441&width=350',
-    833421375: 'https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/280278579_484740633441243_1166435145309434773_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=DI_hiokVdVAAX_E2y2u&tn=cs6dOQYVRdA3ayCL&_nc_ht=scontent-dfw5-1.xx&oh=00_AT_sBOHKs_KzKqZJhlW2EPST2V58xz-9toxqyw2Ut0h8Og&oe=62E161E4'
+    833421375: 'https://d1fdloi71mui9q.cloudfront.net/mvmnBxtZQAqupD6phOBL_0001-7791823588.png'
   }
 
   const altStatements = {

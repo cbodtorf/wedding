@@ -50,11 +50,32 @@
     <div class="to-have-and-to-hold right-right"></div>
   </div>
 
+  <!-- Welcome -->
+  <fieldset>
+    <legend>The Welcome</legend>
+    <article>
+      <div>
+        <p><mark>Friday, 2 Decemeber 2022</mark></p>
+        <!-- <p><mark>TBD in the evening</mark></p> -->
+        <p>Rancho Bernardo Inn</p>
+        <p><mark>Granada Lawn</mark></p>
+        <br />
+        <p>Meet & Greet</p>
+      </div>
+      <div>
+        <div class="img-wrapper valencia">
+          <img class="valencia" src="/assets/granada.jpg" alt="valencia" />
+        </div>
+      </div>
+    </article>
+  </fieldset>
+
   <!-- Ceremony -->
   <fieldset>
     <legend>The Ceremony</legend>
     <article>
       <div>
+        <p><mark>Saturday, 3 Decemeber 2022</mark></p>
         <p><mark>3:00 in the afternoon</mark></p>
         <p>Rancho Bernardo Inn</p>
         <p><mark>Valencia Lawn</mark></p>

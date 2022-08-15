@@ -16,6 +16,15 @@
     <legend>Dress Code</legend>
     <article>
       <div>
+        <h5>Welcome Party</h5>
+        <p><strong>Smart Casual</strong></p>
+        <p>Polished business wear with elements of casual attire.</p>
+        <p>Think blouses, polo shirts, button-downs, chinos, dress pants, dark-wash jeans, and polished, practical footwear.</p>
+
+        <!-- <br/> -->
+        <hr/>
+
+        <h5>Ceremony & Recepetion</h5>
         <p><strong>Formal and Fun</strong></p>
         <p>We like to think of this as formal without the formalities.</p>
         <p>Dress to impress, while still remaining true to yourself.</p>
@@ -81,6 +90,11 @@
     justify-content: space-around;
     position: relative;
     flex-direction: column;
+  }
+
+  h5 {
+    font-weight: bold;
+    text-align: center;
   }
 
   fieldset:nth-child(odd) {
