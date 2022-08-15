@@ -19,7 +19,7 @@
         <h5>Welcome Party</h5>
         <p><strong>Smart Casual</strong></p>
         <p>Polished outfits with elements of casual attire.</p>
-        <p>Think blouses, polo shirts, button-downs, sun dresses, dress pants, dark-wash jeans, and practical footwear.</p>
+        <p>Think blouses, polo shirts, button-downs, sun dresses, dress pants, nice jeans, and practical footwear.</p>
 
         <hr/>
 
