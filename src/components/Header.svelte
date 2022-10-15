@@ -1,15 +1,7 @@
 <script>
   import { page } from '$app/stores';
+  import Nav from "$components/helpers/Nav.svelte";
   import wordmark from "$svg/wordmark.svg";
-
-  const navItems = [
-    { route: 'details' },
-    { route: 'inn' },
-    { route: 'faq' },
-    { route: 'registry' },
-  ];
-
-  console.log('$page.url.pathname', $page.url.pathname)
 </script>
 
 <header>
@@ -19,9 +11,7 @@
   </div>
 
   <div class="navigation">
-    {#each navItems as item, i}
-      <a class={$page.url.pathname === ('/' + item.route + '/') ? 'active' : ''} href="/{item.route}" aria-label="{item.route.toUpperCase()}">{item.route.toUpperCase()}</a> 
-    {/each}
+    <Nav />
   </div>
 </header>
 
@@ -33,11 +23,16 @@
     padding: 1em 0;
   }
 
-  .navigation a {
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  :global(.navigation a) {
     margin-right: 1em;
   }
   
-  .navigation a.active {
+  :global(.navigation a.active) {
     color: #eaa3a8;
   }
 

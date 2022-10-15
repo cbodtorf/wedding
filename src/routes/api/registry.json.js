@@ -78,7 +78,7 @@ export const get = async ({ params, locals }) => {
     halliehillanimalsanctuary: 'Hallie Hill is a 501c(3) non-profit organization that provides sanctuary for abandoned, abused, or neglected animals – a home with food, shelter, love, and medical care.',
     833421375: 'Loveland Foundation is committed to showing up for communities of color in unique and powerful ways, with a particular focus on Black women and girls. Our resources and initiatives are collaborative and they prioritize opportunity, access, validation, and healing. We are becoming the ones we’ve been waiting for.'
   }
-
+  console.log(pagesIds.length)
   let pages = await Promise.all(
     pagesIds.map(async (id) => {
       const { page } = await request(url, query, {
@@ -89,7 +89,7 @@ export const get = async ({ params, locals }) => {
       if (page) {
         const charity = page.relationships.beneficiaries.nodes[0];
         charity.logo = charity.logo === 'https://images.justgiving.com/image/' ? altLogos[charity.slug] : charity.logo;
-        charity.impactStatement = charity.impactStatement.length < 25 ? altStatements[charity.slug] : charity.impactStatement;
+        charity.impactStatement = (charity.impactStatement || '').length < 25 ? altStatements[charity.slug] : charity.impactStatement;
       }
       return page;
     })

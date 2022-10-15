@@ -1,6 +1,7 @@
 <script>
   import { getContext } from "svelte";
   import ScrollWrapper from "$components/helpers/ScrollWrapper.svelte";
+  import Nav from "$components/helpers/Nav.svelte";
   import Demo from "$components/demo/Demo.svelte";
   import WIP from "$components/helpers/WIP.svelte";
   import Footer from "$components/Footer.svelte";
@@ -65,9 +66,33 @@
     </a>
   </div>
   <!-- The mouse position is {m.x} x {m.y} -->
+
+  <!-- mobile  menu -->
+  <div class="flex mobile-menu">
+    <Nav />
+  </div>
 </div>
 
 <style>
+  .mobile-menu {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 20px;
+    width: calc(100% - 50px);
+    max-width: 450px;
+    padding: 10px 20px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    background: #191919de;
+    border-radius: 5px;
+  }
+
+  :global(.mobile-menu a) {
+    color: #e1ddda;
+    text-decoration: none;
+  }
+
   html,
   body {
     height: 100%;
