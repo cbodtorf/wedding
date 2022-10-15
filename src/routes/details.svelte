@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  import RSVP from "$components/helpers/RSVP.svelte";
   let haveAndToHold;
 
   // Inspo: https://coolcssanimation.com/how-to-trigger-a-css-animation-on-scroll/
@@ -35,10 +36,20 @@
         <p>There will be plenty of eating, drinking, dancing and silliness to be had. Dress is formal and fun.</p>
         <p>For more information on the wedding and how to book your stay, please read <a href="/inn">The Inn</a> section of this website.</p>
         <p>We can't wait to celebrate with you!</p>
-        <p><small>Please <a href="/inn">RSVP</a> and book your stay by 15 October 2022.</small></p>
+        <p><small>Please <a href="/inn">RSVP</a> and book your stay by 30 October 2022.</small></p>
       </div>
     </article>
   </fieldset>
+
+  <!-- RSVP -->
+  <!-- <fieldset>
+    <legend>RSVP</legend>
+    <article>
+      <div>
+        <RSVP />
+      </div>
+    </article>
+  </fieldset> -->
 
   <!-- Fakes css :nth-child rule -->
   <div></div>
@@ -61,7 +72,7 @@
       </div>
       <div>
         <p><mark>Friday, 2 Decemeber 2022</mark></p>
-        <!-- <p><mark>TBD in the evening</mark></p> -->
+        <p><mark>5:00 in the evening</mark></p>
         <p>Rancho Bernardo Inn</p>
         <p><mark>Granada Lawn</mark></p>
         <br />
@@ -76,7 +87,7 @@
     <article>
       <div>
         <p><mark>Saturday, 3 Decemeber 2022</mark></p>
-        <p><mark>3:00 in the afternoon</mark></p>
+        <p><mark>Arrive at 3:00 in the afternoon, ceremony begins promptly at 3:30</mark></p>
         <p>Rancho Bernardo Inn</p>
         <p><mark>Valencia Lawn</mark></p>
         <br />
