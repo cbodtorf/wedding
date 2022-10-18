@@ -47,6 +47,7 @@
         <div class="img-wrapper">
           <a
             target="_blank"
+            class="mp-js"
             href="https://www.justgiving.com/{page.slug}"
           >
             <img src="{page.relationships.beneficiaries.nodes[0].logo}" alt="{page.relationships.parents[0].page.title}"/>
@@ -54,6 +55,7 @@
           <br />
           <a
             target="_blank"
+            class="mp-js"
             href="https://www.justgiving.com/{page.slug}">
             View Donation Page
           </a>
@@ -70,6 +72,7 @@
           <button>
             <a
               target="_blank"
+              class="mp-js"
               href="https://www.justgiving.com/{page.slug}/donate?experiments=donate_now_track_click&successType=StaticDonateButtonClick">
               Contribute Now
             </a>

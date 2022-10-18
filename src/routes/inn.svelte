@@ -4,9 +4,9 @@
     <legend>Rancho Bernardo Inn</legend>
     <article>
       <div>
-        <p><a target="_blank" href="https://www.google.com/maps/search/17550+Bernardo+Oaks+Drive+%7C+San+Diego,+CA+92128?entry=gmail&source=g">17550 Bernardo Oaks Dr, San Diego, CA 92128</a></p>
-        <p><a href="tel:844-226-8262">844.226.8262</a></p>
-        <p><a target="_blank" href="https://www.ranchobernardoinn.com/">website</a></p>
+        <p><a target="_blank" class="mp-js" href="https://www.google.com/maps/search/17550+Bernardo+Oaks+Drive+%7C+San+Diego,+CA+92128?entry=gmail&source=g">17550 Bernardo Oaks Dr, San Diego, CA 92128</a></p>
+        <p><a class="mp-js" href="tel:844-226-8262">844.226.8262</a></p>
+        <p><a target="_blank" class="mp-js" href="https://www.ranchobernardoinn.com/">website</a></p>
       </div>
     </article>
   </fieldset>

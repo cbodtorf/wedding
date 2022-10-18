@@ -115,7 +115,7 @@
         <p>Rancho Bernardo Inn</p>
         <p><mark>Santiago Courtyard</mark></p>
         <br />
-        <p><a href="/dinner-party">Dinner Party</a> • <a target="_blank" href="https://open.spotify.com/playlist/5iAJXeWB3LhOFeOMdAEZN1">Music</a> • <a href="javascript:void(0)">Vibes</a></p>
+        <p><a href="/dinner-party">Dinner Party</a> • <a target="_blank" class="mp-js" href="https://open.spotify.com/playlist/5iAJXeWB3LhOFeOMdAEZN1">Music</a> • <a href="javascript:void(0)">Vibes</a></p>
       </div>
     </article>
   </fieldset>

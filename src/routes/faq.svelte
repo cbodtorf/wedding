@@ -6,7 +6,7 @@
       <div>
         <p>San Diego International Airport (SAN) is the closest airport to Rancho Bernardo Inn.</p>
         <p>About a 30-minute drive.</p>
-        <p><a target="_blank" href="https://www.google.com/maps/dir/San+Diego+International+Airport+(SAN),+3225+N+Harbor+Dr,+San+Diego,+CA+92101/Rancho+Bernardo+Inn,+17550+Bernardo+Oaks+Dr,+San+Diego,+CA+92128/@32.8768063,-117.2893176,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x80deab3944f1e6ef:0xdc2e46f957550b6b!2m2!1d-117.1933038!2d32.7338006!1m5!1m1!1s0x80dbf1262c72367d:0x86827b227726edbe!2m2!1d-117.06687!2d33.0311714!3e0">Airport &#8594; Inn</a></p>
+        <p><a target="_blank" class="mp-js" href="https://www.google.com/maps/dir/San+Diego+International+Airport+(SAN),+3225+N+Harbor+Dr,+San+Diego,+CA+92101/Rancho+Bernardo+Inn,+17550+Bernardo+Oaks+Dr,+San+Diego,+CA+92128/@32.8768063,-117.2893176,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x80deab3944f1e6ef:0xdc2e46f957550b6b!2m2!1d-117.1933038!2d32.7338006!1m5!1m1!1s0x80dbf1262c72367d:0x86827b227726edbe!2m2!1d-117.06687!2d33.0311714!3e0">Airport &#8594; Inn</a></p>
       </div>
     </article>
   </fieldset>
