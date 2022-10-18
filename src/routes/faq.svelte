@@ -47,6 +47,18 @@
     </article>
   </fieldset>
 
+  <!-- Things To Do -->
+  <fieldset>
+    <legend>Things To Do</legend>
+    <article>
+      <div>
+        <p>San Diego is packed full of things to do, see, and eat. Here are some of our faves.</p>
+        <br>
+        <p><a href="/sd">Go to things to do page</a></p>
+      </div>
+    </article>
+  </fieldset>
+
   <!-- Questions -->
   <fieldset>
     <legend>Questions</legend>

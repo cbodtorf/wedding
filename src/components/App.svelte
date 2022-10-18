@@ -86,6 +86,7 @@
     justify-content: space-evenly;
     background: #191919de;
     border-radius: 5px;
+    color: #e1ddda;
   }
 
   :global(.mobile-menu a) {

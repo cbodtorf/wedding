@@ -28,10 +28,6 @@
     justify-content: space-around;
   }
 
-  :global(.navigation a) {
-    margin-right: 1em;
-  }
-  
   :global(.navigation a.active) {
     color: #eaa3a8;
   }
