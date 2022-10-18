@@ -40,6 +40,15 @@
     </article>
   </fieldset>
 
+  <fieldset>
+    <legend>Honeymoon Fund</legend>
+    <article>
+      <div>
+        <p><a target="_blank" class="mp-js" href="https://www.travelersjoy.com/calebxchelsea">View Our Honeymoon Registry</a></p>
+      </div>
+    </article>
+  </fieldset>
+
   {#each data.data.pages as page}
     <fieldset>
       <legend>{page.relationships.parents[0].page.title}</legend>
