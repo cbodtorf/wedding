@@ -3,18 +3,18 @@
 	export async function load({ fetch }) {
 		let data = {};
 
-		try {
-      const res = await fetch(`/api/registry.json`);
-      data = await res.json();
-		} catch (e) {
-			console.log(e);
-		}
-		// you can pass the `articles` via props like that
-		return {
-			props: {
-				data
-			}
-		};
+		// try {
+    //   const res = await fetch(`/api/registry.json`);
+    //   data = await res.json();
+		// } catch (e) {
+		// 	console.log(e);
+		// }
+		// // you can pass the `articles` via props like that
+		// return {
+		// 	props: {
+		// 		data
+		// 	}
+		// };
 	}
 </script>
 
@@ -24,7 +24,7 @@
   import LinearProgress from '@smui/linear-progress';
   export let data;
   
-  console.log('data', data);
+  console.log('data =>', data);
 </script>
 
 <div class="wrapper">
@@ -49,7 +49,7 @@
     </article>
   </fieldset>
 
-  {#each data.data.pages as page}
+  {#each data.body.data.pages as page}
     <fieldset>
       <legend>{page.relationships.parents[0].page.title}</legend>
       <article>
