@@ -87,7 +87,7 @@
     <article>
       <div>
         <p><mark>Saturday, 3 Decemeber 2022</mark></p>
-        <p><mark>Arrive at 3:00 in the afternoon, ceremony begins promptly at 3:30</mark></p>
+        <p><mark>Arrive as early as 3:00 in the afternoon, ceremony begins promptly at 3:30</mark></p>
         <p>Rancho Bernardo Inn</p>
         <p><mark>Valencia Lawn</mark></p>
         <br />
